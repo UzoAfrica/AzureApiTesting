@@ -1,11 +1,11 @@
 package com.example.azureapitest;
 
-public class TestDocument {
+public class TextDocument {
     private String language;
     private String id;
     private String text;
 
-    public TestDocument(String language, String id, String text) {
+    public TextDocument(String language, String id, String text) {
         this.language = language;
         this.id = id;
         this.text = text;

@@ -7,7 +7,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Profile;
 
-@Profile("test")
+@Profile("!test")
 @SpringBootApplication
 
 public class MonitorApplication {
